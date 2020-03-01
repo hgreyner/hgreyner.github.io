@@ -17,13 +17,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-
 </head>
 
 <body>
-
+<!--Nav Bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latidue</a>
+        <a class="navbar-brand" href="https://hgreyner.github.io/">Latidue</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,41 +32,41 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Plots</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/temperature.html">Max Temperature</a>
-                    <a class="dropdown-item" href="#">Humidity</a>
-                    <a class="dropdown-item" href="#">Cloudiness</a>
-                    <a class="dropdown-item" href="#">Wind Speed</a>
+                    <a class="dropdown-item" href="https://hgreyner.github.io/temperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="https://hgreyner.github.io/humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="https://hgreyner.github.io/cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="https://hgreyner.github.io/wind.html">Wind Speed</a>
                 </div>
-                <a class="nav-item nav-link" href="#">Comparisons</a>
-                <a class="nav-item nav-link" href="#">Data</a>
+                <a class="nav-item nav-link" href="https://hgreyner.github.io/comparisons.html">Comparisons</a>
+                <a class="nav-item nav-link" href="https://hgreyner.github.io/data.html">Data</a>
             </div>
         </div>
     </nav>
 
-
+<!--Content Section-->
     <div class="row">
         <div class="col-8">
             <div class="container">
                 <div>
-                    <h2>Summary: Latitude vs. X</h2>
+                    <h2>Max Temperature</h2>
                 </div>
                 <hr>
                 <div class="media">
-                    <img src="Resources/assets/images/Fig1.png" class="align-self-start mr-3"
-                        alt="City Latitude vs Max Temperature" height=200px>
-                    <div class="media-body">
-                        <h5 class="mt-0"></h5>
-                        <p>The purpose of this project was to analyze how weather changes as you get closer to the
-                            equator. To accomplish this analysis, we first pulled data from the OpenWeather API to
-                            assemble a dataset on over 500 cities.</p>
-                        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
-                            latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
-                            This site provides the source data and visualizations creted as part of the analysis, as
-                            well as explanations and descriptions of any trends and correlations witnessed.</p>
-                    </div>
+                    <img src="Resources/assets/images/Fig1.png"
+                        alt="City Latitude vs Max Temperature" height=600px>
                 </div>
+                <div class="media-body">
+                        <p>As expected, the weather becomes significantly warmer as one approches the equator (o Deg. Latitude.
+                            More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of
+                            year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this
+                            data was gathered.
+                        </p>
+                </div>
+                
             </div>
         </div>
+        
+<!--Visualizations Navigator-->        
         <div class="col-4">
             <div class="container">
                 <div>
@@ -75,17 +74,20 @@
                 </div>
                 <hr>
                 <div class="media">
-                    <a href="file:///D:/BootCamp/Homework/11%20Web/temperature.html">
-                    <img src="Resources/assets/images/Fig1.png" class="align-self-start mr-3"
+                    <a href="https://hgreyner.github.io/temperature.html">
+                        <img src="Resources/assets/images/Fig1.png" class="align-self-start mr-3"
                         alt="City Latitude vs Max Temperature" height=150px></a>
-                    <img src="Resources/assets/images/Fig2.png" class="align-self-start mr-3"
-                        alt="City Latitude vs Humidity" height=150px>
+                    <a href="https://hgreyner.github.io/humidity.html">
+                        <img src="Resources/assets/images/Fig2.png" class="align-self-start mr-3"
+                        alt="City Latitude vs Humidity" height=150px></a>
                 </div>        
                 <div class="media">    
-                    <img src="Resources/assets/images/Fig3.png" class="align-self-start mr-3"
-                        alt="City Latitude vs Cloudiness" height=150px>
-                    <img src="Resources/assets/images/Fig4.png" class="align-self-start mr-3"
-                        alt="City Latitude vs Wind Speed" height=150px>
+                    <a href="https://hgreyner.github.io/cloudiness.html">
+                        <img src="Resources/assets/images/Fig3.png" class="align-self-start mr-3"
+                        alt="City Latitude vs Cloudiness" height=150px></a>
+                    <a href="https://hgreyner.github.io/wind.html">
+                        <img src="Resources/assets/images/Fig4.png" class="align-self-start mr-3"
+                        alt="City Latitude vs Wind Speed" height=150px></a>
                 
                 </div>
             
@@ -95,7 +97,8 @@
         </div>
     </div>
     </div>
-    
+
+<!--Footer-->
     <div class="footer2"> </div>
      
     <div class="footer">
