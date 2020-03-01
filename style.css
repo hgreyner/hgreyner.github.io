@@ -49,3 +49,21 @@ h2 {
 .table {
   margin-top: 50px;
 }
+
+.col {
+  align-content: center;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  margin: none
+  ;
+}
+
+h3 {
+  color: rgb(93, 204, 198);
+}
+
+.container2 {
+  align-content: center;
+  background-color: white;
+  padding: 40px;
