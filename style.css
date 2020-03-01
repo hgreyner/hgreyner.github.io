@@ -1,0 +1,46 @@
+.navbar-brand {
+    background-color: rgb(55, 218, 209);
+    padding: 20px;
+    font-weight: bold;
+}
+
+.row {
+  background-color: lightgray;
+  padding: 50px;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+}
+
+  .media, h2 {
+  padding: 20px;
+}
+
+p {
+  line-height: 2;
+}
+
+h2 {
+  color: rgb(93, 204, 198);
+  font-weight: bold;
+}
+
+.footer {
+  background-color: grey;
+  text-align: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.footer2 {
+  height: 5px;
+  background-color: rgb(93, 204, 198);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  }
